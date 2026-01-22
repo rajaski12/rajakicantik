@@ -1,59 +1,94 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <title>Profil Razaski</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-      color: white;
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+    <meta charset="UTF-8">
+    <title>Portofolio Razaski</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(120deg, #1d2671, #c33764);
+            margin: 0;
+            padding: 0;
+        }
 
-    .card {
-      background: rgba(0, 0, 0, 0.4);
-      padding: 40px 55px;
-      border-radius: 18px;
-      text-align: center;
-      box-shadow: 0 12px 30px rgba(0,0,0,0.4);
-      max-width: 450px;
-    }
+        .container {
+            max-width: 600px;
+            margin: 80px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            text-align: center;
+        }
 
-    h1 {
-      margin-bottom: 10px;
-      font-size: 36px;
-      letter-spacing: 1px;
-    }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
 
-    h2 {
-      margin-bottom: 25px;
-      font-weight: normal;
-      font-size: 20px;
-      opacity: 0.9;
-    }
+        p {
+            font-size: 18px;
+            color: #444;
+            margin: 8px 0;
+        }
 
-    p {
-      margin: 10px 0;
-      font-size: 18px;
-    }
-  </style>
+        .profile {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: #eee;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 50px;
+        }
+
+        a.instagram {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #E1306C;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        a.instagram:hover {
+            background: #c2185b;
+            transform: scale(1.05);
+        }
+
+        footer {
+            margin-top: 25px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
 </head>
 <body>
 
-  <div class="card">
-    <h1>SELAMAT DATANG DI WEB SAYA</h1>
-    <h2>Ini profil saya</h2>
+    <div class="container">
+        <div class="profile">👤</div>
 
-    <p>Nama saya <b>Razaski</b></p>
-    <p>Kelas X-5</p>
-    <p>Saya sekolah di Prestasi Prima</p>
-    <p>Hobi saya badminton</p>
-  </div>
+        <h1>Portofolio</h1>
+
+        <p><b>Nama:</b> Razaski</p>
+        <p><b>Kelas:</b> X-5</p>
+        <p><b>Sekolah:</b> Prestasi Prima</p>
+        <p><b>Hobi:</b> Badminton 🏸</p>
+
+        <!-- Link Instagram -->
+        <a class="instagram" href="https://www.instagram.com/rz.fajrin?igsh=MTIwenRhNTZ5eXZqdg%3D%3D&utm_source=qr" target="_blank">
+            📷 Follow Instagram
+        </a>
+
+        <footer>
+            © 2026 - Portofolio Razaski
+        </footer>
+    </div>
 
 </body>
 </html>
